@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Created by Richard Chen on 2017/5/10.
- * 面试题5：从尾到头打印链表（递归实现）
+ * 5：从尾到头打印链表（递归实现）
  */
 
 class ListNode {

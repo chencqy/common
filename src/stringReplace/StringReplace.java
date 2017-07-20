@@ -2,7 +2,7 @@ package stringReplace;
 
 /**
  * Created by Richard Chen on 2017/5/8.
- * 面试题4：字符串替换
+ * 4：字符串替换
  */
 public class StringReplace {
     public String replaceSpace(StringBuffer str){

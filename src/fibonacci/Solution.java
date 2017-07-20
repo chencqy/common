@@ -2,7 +2,7 @@ package fibonacci;
 
 /**
  * Created by Richard Chen on 2017/5/17.
- * 面试题9：斐波那契数列
+ * 9：斐波那契数列
  */
 public class Solution {
     public int fibonacci(int n){

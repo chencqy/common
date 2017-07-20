@@ -2,7 +2,7 @@ package numberOf1;
 
 /**
  * Created by Richard Chen on 2017/5/18.
- * 面试题10：二进制中1的个数
+ * 10：二进制中1的个数
  */
 
 /**

@@ -2,7 +2,7 @@ package reBuildBinaryTree;
 
 /**
  * Created by Richard Chen on 2017/5/11.
- * 面试题6：重建二叉树
+ * 6：重建二叉树
  */
 
 class TreeNode {

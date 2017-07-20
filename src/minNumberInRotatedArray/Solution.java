@@ -2,7 +2,7 @@ package minNumberInRotatedArray;
 
 /**
  * Created by Richard Chen on 2017/5/16.
- * 面试题8：旋转数组的最小数字
+ * 8：旋转数组的最小数字
  */
 public class Solution {
     public int minNumberInRotateArray(int [] array) {

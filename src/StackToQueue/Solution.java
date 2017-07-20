@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * Created by Richard Chen on 2017/5/15.
- * 面试题7：用两个栈实现队列
+ * 7：用两个栈实现队列
  */
 public class Solution {
     Stack<Integer> stack1 = new Stack<>();

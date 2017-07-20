@@ -2,7 +2,7 @@ package arrayFind;
 
 /**
  * Created by Richard Chen on 2017/5/8.
- * 面试题3：二维数组中的查找
+ * 3：二维数组中的查找
  */
 public class ArrayFind {
     public Boolean find(int [][] array, int target){

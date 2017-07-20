@@ -2,7 +2,7 @@ package fibonacci;
 
 /**
  * Created by Richard Chen on 2017/5/17.
- * 面试题9题目二：青蛙跳台阶
+ * 9.2：青蛙跳台阶
  */
 public class Solution2 {
     public int JumpFloor(int target) {
