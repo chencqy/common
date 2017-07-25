@@ -11,7 +11,9 @@ public class Singleton {
     private volatile static Singleton uniqueInstance;
     //饿汉式：private static Singleton uniqueInstance = new Singleton();
 
-    public Singleton(){}
+    public Singleton(){
+
+    }
 
     public static Singleton getUniqueInstance() {
         if (uniqueInstance == null){
