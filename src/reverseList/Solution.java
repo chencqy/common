@@ -15,7 +15,7 @@ class ListNode {
     }
 }
 
-public class Soultion {
+public class Solution {
     public ListNode ReverseList(ListNode head) {
 
         if(head==null)
