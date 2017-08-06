@@ -1,12 +1,15 @@
-package printFromTopToBottom;
+package findPath;
 
 /**
  * Created by Chen on 17-8-6
  * 第二种解法
  */
 
+
+
 import java.util.ArrayList;
 import java.util.Stack;
+
 
 public class Solution2 {
 
