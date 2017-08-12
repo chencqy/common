@@ -1,4 +1,4 @@
-package moreThanHalfArray;
+package getLeastNumbers;
 
 import java.util.ArrayList;
 
