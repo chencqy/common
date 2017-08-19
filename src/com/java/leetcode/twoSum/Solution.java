@@ -31,4 +31,24 @@ public class Solution {
         }
         return result;
     }
+//    /**
+//     * 如果是排序数组的话：
+//     * 定义两个指针对应数组一前一后，这两个元素的和如果大于target则后面的指针前移，小于则前面的指针后移直到相等
+//     */
+//    int[] result = new int[2];
+//    int ahead = nums.length - 1;
+//    int behead = 0;
+//        while (ahead > behead) {
+//        int curSum = nums[ahead] + nums[behead];
+//        if (curSum == target) {
+//            result[0] = behead;
+//            result[1] = ahead;
+//            break;
+//        }else if (curSum > target) {
+//            ahead--;
+//        }else {
+//            behead++;
+//        }
+//    }
+//        return result;
 }
