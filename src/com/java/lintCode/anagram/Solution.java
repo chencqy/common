@@ -1,4 +1,4 @@
-package com.java.lintCode;
+package com.java.lintCode.anagram;
 
 /**
  * Created by Richard Chen on 17-8-18
