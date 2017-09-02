@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe919e0-7595-4ae7-a953-197209250f61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/majorityNumber/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/canCompleteCircuit/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/majorityNumber/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="168">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/canCompleteCircuit/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -85,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/printMinNumber/Solution.java" />
         <option value="$PROJECT_DIR$/src/getUglyNumber/Solution.java" />
         <option value="$PROJECT_DIR$/src/firstNotRepeatingChar/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/leetcode/Solution.java" />
@@ -136,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/com/java/lintCode/binary/numTrees/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/singleNumber/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/majorityNumber/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/canCompleteCircuit/Solution.java" />
       </list>
     </option>
   </component>
@@ -230,13 +240,33 @@
               <item name="lintCode" type="462c0819:PsiDirectoryNode" />
               <item name="greedyAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="greedyAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="majorityNumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="greedyAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="singleNumber" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -813,12 +843,13 @@
       <workItem from="1503972747202" duration="3257000" />
       <workItem from="1504079112849" duration="2709000" />
       <workItem from="1504149174402" duration="1530000" />
-      <workItem from="1504255847606" duration="670000" />
+      <workItem from="1504255847606" duration="1297000" />
+      <workItem from="1504315398383" duration="911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169398000" />
+    <option name="totallyTimeSpent" value="170936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,13 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/java/jdk1.8/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="400" column="23" lean-forward="false" selection-start-line="400" selection-start-column="23" selection-end-line="400" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/jianzhioffer/isContinuous/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1225,8 +1249,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/majorityNumber/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="168">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/canCompleteCircuit/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
