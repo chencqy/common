@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe919e0-7595-4ae7-a953-197209250f61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/DeleteDigits/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/lintCode/linkedList/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/DeleteDigits/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="92">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/linkedList/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -95,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/java/leetcode/hammingDistance/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/jianzhioffer/firstNotRepeatingChar/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/jianzhioffer/inversePairs/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/jianzhioffer/findFirstCommonNode/Solution.java" />
@@ -146,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/largestNumber/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/canJump/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/DeleteDigits/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/java/lintCode/linkedList/Solution.java" />
       </list>
     </option>
   </component>
@@ -232,15 +242,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lintCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lintCode" type="462c0819:PsiDirectoryNode" />
-              <item name="greedyAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -825,12 +826,12 @@
       <workItem from="1504149174402" duration="1530000" />
       <workItem from="1504255847606" duration="1297000" />
       <workItem from="1504315398383" duration="5317000" />
-      <workItem from="1504402452466" duration="1009000" />
+      <workItem from="1504402452466" duration="2418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176351000" />
+    <option name="totallyTimeSpent" value="177760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,13 +903,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/java/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/java/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7165">
@@ -1242,8 +1236,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/greedyAlgorithm/DeleteDigits/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/lintCode/linkedList/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
