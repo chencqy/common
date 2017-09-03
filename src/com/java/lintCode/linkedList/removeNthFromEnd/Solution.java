@@ -1,4 +1,4 @@
-package com.java.lintCode.linkedList;
+package com.java.lintCode.linkedList.removeNthFromEnd;
 
 /**
  * Created by Richard Chen on 17-9-3
